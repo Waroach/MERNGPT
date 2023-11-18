@@ -21,8 +21,16 @@ export const loginValidator = [
   body("email").trim().isEmail().withMessage("Email is required"),
   body("password")
     .trim()
-    .isLength({ min: 6 })
-    .withMessage("Password should contain atleast 6 characters"),
+    .isLength({ min: 8 })
+    .withMessage("Password should contain atleast 6 characters")
+    .matches(/[\W_]/)
+    .withMessage("Password should contain at least one special character")
+    .matches(/[a-z]/)
+    .withMessage("Password should contain at least one lowercase letter")
+    .matches(/[A-Z]/)
+    .withMessage("Password should contain at least one uppercase letter")
+    .matches(/\d/)
+    .withMessage("Password should contain at least one numeric digit"),
 ];
 
 export const signupValidator = [
