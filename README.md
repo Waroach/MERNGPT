@@ -1,10 +1,13 @@
 # Project Title
 
-Simple overview of use/purpose.
+MERNGPT AI Chatbot using the MERN stack.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Secure and scalable AI chatbot with the MERN Stack and advanced authentication.
+The project is a ChatGPT Clone. The project uses React, Node, MongoDB, Express, and Typescript.
+
+[AI SaaS Chat Bot using MERN Stack](https://www.youtube.com/watch?v=wrHTcjSZQ1Y&t=5874s&ab_channel=freeCodeCamp.org)
 
 ## Getting Started
 
